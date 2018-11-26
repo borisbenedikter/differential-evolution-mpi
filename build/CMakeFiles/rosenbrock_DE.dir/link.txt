@@ -1,0 +1,1 @@
+/usr/bin/cc     -Wl,-rpath  -Wl,/home/boris/.openmpi/lib  -Wl,--enable-new-dtags CMakeFiles/rosenbrock_DE.dir/src/main.c.o CMakeFiles/rosenbrock_DE.dir/src/rosenbrock.c.o  -o ../bin/rosenbrock_DE -lm /home/boris/Documenti/Libraries/Optimization/lib/libmy_DE.a /home/boris/.openmpi/lib/libmpi.so -Wl,-rpath,/home/boris/.openmpi/lib 
